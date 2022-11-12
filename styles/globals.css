@@ -14,13 +14,18 @@
    /*src: url("/public/font/IRANSansMobile.ttf");*/
   src: url("/public/font/IRANSans(FaNum).ttf");
  }
+@layer base {
+  html {
+    font-family: IranSansMobile;
+  }
+}
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /*font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,*/
+  /*  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;*/
 }
 
 a {
