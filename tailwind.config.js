@@ -2,16 +2,13 @@
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    "./Components/**/*.{js,ts,jsx,tsx}",
   ],
-  // content: ["*"],
   theme: {
     extend: {
       fontSize: {
         '40px': ['40px', '63px'],
         '32px': ['32px', '50px'],
-
-
       },
 
       fontFamily: {

@@ -5,8 +5,7 @@ import { useRouter } from 'next/router'
 const Fold1 = () => {
     const router = useRouter()
     return (
-        // <div className="grid grid-cols-2 ">
-        <div className="w-full relative  ">
+         <div className="w-full relative  ">
             <div className="flex md:flex-row flex-col-reverse      ">
                 <div className='  relative'>
                     <div className='md:max-w-screen-md  min-w-[325px]  md:w-[42vw] w-full left-[-4vw] top-0 md:absolute	'>
@@ -65,19 +64,13 @@ const Fold1 = () => {
             </div>
 
             <div className=' w-full relative'>
-                 {/*right-[-10%]*/}
-                <div className='absolute   right-[-11%]  md:right-[-13%] top-0  md:w-[200px] w-[90px]    '>
+                 <div className='absolute   right-[-11%]  md:right-[-13%] top-0  md:w-[200px] w-[90px]    '>
                     <Image
-                        // loader={myLoader}
-                        src="/Landing/curve1.svg"
+                         src="/Landing/curve1.svg"
                         alt="curve1"
-                        // width={200}
-                        // height={200}
+
                         width={"200%"}
                         height={"200%"}
-                        // layout={"fill"}
-                        //
-                        // sizes="200px"
 
 
                     />

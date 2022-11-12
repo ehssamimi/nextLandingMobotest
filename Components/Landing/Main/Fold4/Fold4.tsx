@@ -20,9 +20,7 @@ const Fold4 = () => {
                                 />
                             </div>
                             <div  className='text-BlackPearl-1000 mb-2 	'>مطالعه در <span className='text-Blaze mb-2'>هر جا و هر زمانی</span> که دوست دارید</div>
-                            {/*<span className='text-BlackPearl-1000 mb-2 whitespace-nowrap	'>مطالعه در </span>*/}
-                            {/*<span className='text-Blaze mb-2 whitespace-nowrap	'>هر جا و هر زمانی </span>*/}
-                            {/*<span className='text-BlackPearl-1000 mb-2  	'> که دوست دارید </span>*/}
+
                         </h3>
                         <p className="text-sm	 lg:text-xl font-normal text-BlackPearl-640 mt-8 md:mr-10	">
                             تمام درس‌های خودتون رو در هر مکانی فارغ از این کجا هستید می‌تونید یاد بگیرید. در حال سفر کردن، قدم زدن یا خانه. یادگیری رو شروع کن.
