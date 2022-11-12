@@ -9,7 +9,7 @@ const Fold1 = () => {
             <div className="flex md:flex-row flex-col-reverse      ">
                 <div className='  relative'>
                     <div className='md:max-w-screen-md  min-w-[325px]  md:w-[42vw] w-full left-[-4vw] top-0 md:absolute	'>
-                        <Image src="/Landing/left.svg" alt="left" className={' w-full  '} width={"100%"} height={"100%"}/>
+                        <img src="/Landing/Left.svg" alt="left" className={' w-full  '}/>
                     </div>
 
                 </div>
