@@ -4,18 +4,20 @@
 
 @font-face {
   font-family: "IranSansMobile";
-   /*src: url("/public/font/IRANSansMobile.ttf");*/
-  src: url("/public/font/IRANSansWeb.woff");
-  /*src: url("/public/font/iransansweb(fanum).woff");*/
+
+  /*src: url("/public/font/IRANSansWeb.woff");*/
+  src: url("/public/font/IRANSans(FaNum).ttf");
+
  }
 
 @font-face {
   font-family: "FaNum";
-   /*src: url("/public/font/IRANSansMobile.ttf");*/
+
   src: url("/public/font/IRANSans(FaNum).ttf");
  }
 @layer base {
-  html {
+  html,
+  body {
     font-family: IranSansMobile;
   }
 }
